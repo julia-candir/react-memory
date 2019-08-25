@@ -19,8 +19,7 @@ class GamePage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      wizards: ['dumbledore', 'harry'],
-      // wizards: ['dumbledore', 'harry', 'hermione', 'ron', 'snape', 'voldemort'],
+      wizards: ['dumbledore', 'harry', 'hermione', 'ron', 'snape', 'voldemort'],
       duplicatedWizards: [],
       randomizedWizards: [],
       finalizedWizards: [],
@@ -130,7 +129,7 @@ class GamePage extends React.Component {
   }
 
   render() {
-    if (this.state.matchedWizards === 2) {
+    if (this.state.matchedWizards === 6) {
       return <Redirect to={'/result'} />;
     }
 
