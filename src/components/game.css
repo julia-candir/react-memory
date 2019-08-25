@@ -1,0 +1,48 @@
+.gameplace {
+  background-color: #00000080;
+  padding: 30px 50px;
+  border-radius: 30px;
+}
+
+.max-w-100 {
+  max-width: 100%;
+}
+
+.hat-in {
+  height: 85px;
+  width: auto;
+}
+.hat-out {
+  background-color: #ffffffb3;
+  width: 140px;
+  height: 140px;
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 1);
+}
+
+.showonhover {
+  display: none;
+  font-size: 10px;
+}
+
+.test:hover .showonhover {
+  display: block;
+}
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
